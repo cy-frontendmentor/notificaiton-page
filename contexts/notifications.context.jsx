@@ -19,7 +19,7 @@ const setAllNotificationsToRead = (notifications) => {
 
 export const NotificationsContext = createContext({
   notifications: [],
-  setNotificationsToRead: () => {},
+  setNotificationsToRead: (id) => {},
   setAllToRead: () => {},
   notificationsCount: "",
 });
